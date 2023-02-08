@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    width: 80%;
+}
+header nav li a{
+    color: rgb(37,68,86);
+    text-decoration:none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+header nav li a:hover{
+    color: rgba(251, 252, 255, 0.5)
+}
+header nav li{
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: bold;
+}
+header nav ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header nav{
+    background-color: rgb(12, 32, 43);
+    margin-top: 50px;
+    position: relative;
+    padding: 5px;
+}
+
+.logo{
+    width: 80px;
+    margin-left: 100px;
+}
+.banner{
+    width: 100%;
+}
+#title{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(31,33,32);
+    margin-top: 50px;
+}
+#text{
+    color: rgb(84,84,86);
+    font-size: 15px;
+    text-align: center;
+    line-height: 2.0;
+    margin-bottom: 80px;
+}
+.menuhorizontal{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-left: 40px;
+    
+}
